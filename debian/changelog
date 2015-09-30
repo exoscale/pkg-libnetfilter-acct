@@ -1,0 +1,26 @@
+libnetfilter-acct (1.0.2-1ubuntu1) trusty; urgency=medium
+
+  * Use dh-autoreconf instead of autotools-dev to also fix FTBFS on ppc64el by
+    getting new libtool macros (still updates config.{sub,guess}).
+
+ -- Logan Rosen <logan@ubuntu.com>  Thu, 02 Jan 2014 20:04:35 -0500
+
+libnetfilter-acct (1.0.2-1) unstable; urgency=low
+
+  * New upstream release
+  * Bumped Standards-Version to 3.9.4
+
+ -- Laurence J. Lane <ljlane@debian.org>  Mon, 25 Mar 2013 14:34:10 -0400
+
+libnetfilter-acct (1.0.1-2) unstable; urgency=low
+
+  * Corrected debian/watch
+  * Added upstream changelog
+
+ -- Laurence J. Lane <ljlane@debian.org>  Sat, 27 Oct 2012 04:02:55 -0400
+
+libnetfilter-acct (1.0.1-1) unstable; urgency=low
+
+  * Initial packaging. Closes: #666026
+
+ -- Laurence J. Lane <ljlane@debian.org>  Tue, 23 Oct 2012 16:02:14 -0400
