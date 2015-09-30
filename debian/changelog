@@ -1,3 +1,9 @@
+libnetfilter-acct (1.0.2-1ubuntu~precise0+exo1) precise; urgency=medium
+
+  * Backport to Precise. No changes.
+
+ -- Vincent Bernat <bernat@debian.org>  Wed, 30 Sep 2015 10:46:19 +0200
+
 libnetfilter-acct (1.0.2-1ubuntu1) trusty; urgency=medium
 
   * Use dh-autoreconf instead of autotools-dev to also fix FTBFS on ppc64el by
